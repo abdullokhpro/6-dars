@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+/* header  */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header__title {
+    height: 47px;
+    padding-top: 10px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27.2px;
+    color: #F1D3B9;
+    background: #B36050;
+}
+
+/* main  */
+
+/* shop  */
+
+.shop {
+    text-align: center;
+    background: #A9AE8D;
+    padding: 69px 492px 51px;
+}
+
+.shop p {
+    margin-bottom: 15px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28.8px;
+    text-transform: uppercase;
+    color: #F6F4EC;
+}
+
+.shop h2 {
+    margin-bottom: 28px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 33px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 64px;
+    color: #F6F4EC;
+}
+
+.shop button {
+    width: 130px;
+    padding: 10px 20px;
+    border: none;
+    background: #B45F4D;
+}
+
+.shop a {
+    text-decoration: none;
+    font-family: Roboto;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    color: #FFF;
+}
+
+/* bottle */
+
+.bottle {
+    margin-bottom: 34px;
+    padding: 39px 126px 89px 126px;
+    background: #F6F4EC;
+}
+
+.bottle h2 {
+    margin-bottom: 64px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 23px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 39.2px;
+    text-transform: capitalize;
+    color: #B45F4D;
+    text-align: center;
+}
+
+.cards {
+    display: inline-block;
+}
+
+.card {
+    margin-left: 80px;
+    text-align: left;
+}
+
+.card--0 {
+    margin: 0;
+}
+
+.card img {
+    margin-bottom: 39px;
+}
+
+.card p {
+    margin-bottom: 23px;
+    color: #B45F4D;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25.2px;
+    text-transform: uppercase;
+}
+
+.card p + p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px;
+    color: #B45F4D;
+}
+
+/* advertisement  */
+
+.advertisement img {
+    margin-bottom: 46px;
+}
+
+.feedback {
+    padding: 97px 120px 68px 116px;
+    background: #F1D3B9;
+    height: 914px;
+}
+
+.feedback__info {
+    display: inline-block;
+    width: 500px;
+    padding: 134px 42px;
+    background: #F8F8F8;
+}
+
+.feedback__title {
+    display: inline-block;
+}
+
+.feedback__text {
+    width: 416px;
+}
+
+/* follow  */
+
+.section {
+    padding-top: 54px;
+    padding-bottom: 36px;
+    text-align: center;
+}
+
+.section h2 {
+    text-align: center;
+}
